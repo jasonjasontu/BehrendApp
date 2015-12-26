@@ -1,0 +1,4 @@
+1. Android Studio General Tutorial from Youtube. The part of DB might be useful.
+	https://www.youtube.com/watch?v=NT1qxmqH1eM&list=PLzV8uWUcseN8x0c3q2hRx9X4vbLYSlipb&index=13
+2. Codecademy. Highlight the SQL and Query Parts. 
+	https://www.codecademy.com/learn
