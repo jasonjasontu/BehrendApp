@@ -8,7 +8,7 @@ public class Events {
     String eName,eLoc,eTime,description;
 
     public void setEventId(int id){eventId=id;}
-    public int getEventId(){return eventId};
+    public int getEventId(){return eventId;}
 
     public void setEName(String name){eName=name;}
     public String getEname(){return eName;}
