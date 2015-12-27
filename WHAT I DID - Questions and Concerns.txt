@@ -1,0 +1,10 @@
+12/27/15 (AC): About App2
+	I assume the first app projected was not created by Android Studio and that is the reason why it cannot complie well with Android Studio. I recreated a new project from Android Studio. Hope it can solve the problem and you have not gone too far with the old one. 
+
+
+12/26/15 (AC): About Database. 
+	I am thinking about how to access data efficiently from DB. Like if you want to get the first three events which will happened in some location, is there any way you can get them from a sorted group of data rather than go through all events saved in DB? 
+	Or if DB can be sorted, for the eventDB, which catagory (location or related topic like acdamic/sports/etc) should be based on to sort? 
+	Or How can we get data in ascending order with several restriction? Like the most recent three events which will happened in Burke about Career Development.
+	Just record what I am doing and wondering...
+ 
