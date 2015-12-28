@@ -5,17 +5,30 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.View.OnClickListener;
+import android.app.Activity;
+import android.widget.Button;
+import android.view.View;
 
 
-public class main_menu extends ActionBarActivity {
+public class main_menu extends Activity implements OnClickListener {
+
+    private Button Ok;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
-        View v;
     }
 
+    @Override
+    public void onClick(View view){
+        switch(view.getId()){
+            case R.id.OK:
+                break;
+        }
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
