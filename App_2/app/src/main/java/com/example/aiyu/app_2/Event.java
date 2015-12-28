@@ -12,12 +12,12 @@ public class Event {
     };// Enum here for better searching and sorting in DB
 
     //Data List
-    int eventId;//Auto Generated (though I havent figure out how to do this)
+    //int eventId;//Auto Generated (though I havent figure out how to do this)
     String eName,eTime,description;
     location eLoc;
 
-    public void setEventId(int id){eventId=id;}
-    public int getEventId(){return eventId;}
+   // public void setEventId(int id){eventId=id;}
+   // public int getEventId(){return eventId;}
 
     public void setEName(String name){eName=name;}
     public String getEname(){return eName;}

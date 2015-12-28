@@ -1,6 +1,7 @@
 package com.example.aiyu.app_2;
 
 import android.content.ContentValues;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.content.Context;
@@ -33,7 +34,15 @@ public class EventDatabaseHelper extends SQLiteOpenHelper{
     //Insert New event into DB and generate an ID for a new added event
     public void insertEvent(Event e){
         db=this.getWritableDatabase();
+
+        //get ID
+        String query="select * from events";
+        Cursor cursor=db.rawQuery(query,null);
+        int count=cursor.getCount();
+
+        //Insert
         ContentValues values= new ContentValues();
+        values.put(COLUMN_ID,count);
         values.put(COLUMN_ENAME,e.getEname());
         values.put(COLUMN_ETIME,e.getETime());
         values.put(COLUMN_ELOC,e.getELoc());
